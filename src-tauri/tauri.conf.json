@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "chatapplication",
+  "productName": "DBChat",
   "version": "0.1.0",
-  "identifier": "dbttsv1.chatapplication",
+  "identifier": "dbttsv1.dbchat",
   "build": {
     "beforeDevCommand": "yarn dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "chatapplication",
+        "title": "DBChat",
         "width": 800,
         "height": 600
       }
@@ -30,11 +30,6 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ],
-    "windows": {
-      "webviewInstallMode": {
-        "type": "offlineInstaller"
-      }
-    }
+    ]
   }
 }

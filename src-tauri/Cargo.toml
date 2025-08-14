@@ -1,5 +1,5 @@
 [package]
-name = "chatapplication"
+name = "DBChat"
 version = "0.1.0"
 description = "Chat Application"
 authors = ["Anubhav Sharma"]
